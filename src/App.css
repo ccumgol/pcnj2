@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.NavBrand {
+  font-size: 0.8em;
+  font-weight: 800;
+}
+
+.navigation-menu {
+  display: inline-block;
+margin: 0px 0 0 30px;
+padding-bottom: 0;
+vertical-align: top;
+  font-size: 0.6em;
+  font-weight: 600;
+  text-decoration: solid;
+text-align: center;
+cursor: pointer;
+}
+
+.body {
+  background: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
 }
